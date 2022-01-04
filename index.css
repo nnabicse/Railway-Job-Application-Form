@@ -27,12 +27,19 @@
 }
 
 body{
-    background-color: rgba(128, 128, 128, 0.658);
+    background-color: wheat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    
 }
+body p{
+    padding: 3px;
+}
+
 .full-body{
     width: 763px;
     margin: auto;
+    border: 2px solid grey;
 }
 .navbar{
     width: 100%;
@@ -49,4 +56,67 @@ body{
 table{
     width: 100%;
     text-align: left;
+}
+
+.adress{
+    display: flex;
+}
+.adress-details{
+    border:2px solid white;
+    width: 50%;
+    margin: 5px;
+    color: black;
+}
+.adress-details p{
+    padding: 10px;
+    background-color: green;
+    margin: 0%;
+    color: white;
+    
+}
+
+.academic{
+    display: flex;
+    
+}
+
+.academic-details{
+    border:2px solid white;
+    width: 50%;
+    margin: 5px;
+    color: black;
+
+}
+
+.academic-details p{
+    padding: 10px;
+    background-color: green;
+    margin: 0%;
+    color: white;   
+}
+
+.graduation{
+    display: flex;
+}
+.graduation-details{
+    border:2px solid white;
+    width: 50%;
+    margin: 5px;
+    color: black;
+
+}
+
+.graduation-details p{
+    padding: 10px;
+    background-color: green;
+    margin: 0%;  
+    color: white; 
+}
+
+.next-button{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    margin-left: 50%;
 }
